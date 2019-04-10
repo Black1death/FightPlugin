@@ -7,6 +7,9 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class ChatColorUtil {
+    
+    private ChatColorUti(){
+    }
 
     public static String colored(String message){
         return ChatColor.translateAlternateColorCodes('&', message.replace(">>", "»").replace("<<", "«"));
