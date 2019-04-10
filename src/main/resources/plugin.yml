@@ -1,0 +1,10 @@
+name: FightPlugin
+authors: [vFeesT]
+version: 1.0-SNAPSHOT
+main: pl.kodicrew.developers.fight.FightPlugin
+
+commands:
+  fight:
+    aliases: [walka, walki]
+  gafight:
+    aliases: [fights, walks]
