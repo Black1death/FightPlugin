@@ -16,11 +16,4 @@ public class ChatColorUtil {
         player.sendMessage(colored(message));
         return true;
     }
-
-    public static List<String> colored(List<String> message){
-        return message
-                .stream()
-                .map(ChatColorUtil::colored)
-                .collect(Collectors.toList());
-    }
 }
